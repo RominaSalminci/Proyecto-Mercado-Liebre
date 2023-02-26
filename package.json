@@ -2,13 +2,17 @@
   "name": "proyecto-en-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "nodemon app.js"
+      
   },
-  "author": "",
+  "keywords": [],
+  "author": "Romina Salminci",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.12"
   }
 }
